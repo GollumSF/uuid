@@ -21,10 +21,10 @@ composer require gollumsf/uuid
 ```php
 <?php
 
-use GollumSF\UUID\UUID
+use GollumSF\UUID\UUID;
 
 $uuid = new UUID();
 
-echo 'UUID='.$uuid; // UUID=
+echo 'UUID='.$uuid; // UUID=12c634e0-0a86-cec3-03e6-7086f84d98
 
 ```

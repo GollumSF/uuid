@@ -20,7 +20,7 @@ class UUIDTest extends TestCase {
 
 	public function testUniq() {
 		$uuids = [];
-		for ($i = 0; $i < 10000000; $i++) {
+		for ($i = 0; $i < 100000; $i++) {
 			$uuids[] = (new UUID()).'';
 		}
 
