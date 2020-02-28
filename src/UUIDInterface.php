@@ -1,6 +1,7 @@
 <?php
 namespace GollumSF\UUID;
 
-interface UUIDInterface {
-	public function __toString(): string;
+interface UUIDInterface
+{
+    public function __toString(): string;
 }
